@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto";
   color: var(--tittle-text--color);
@@ -26,7 +29,14 @@ body {
 }
 
 /* first what we do without imgs*/
+.what-we-do-section-images{
 
+  display: flex;
+  justify-content: center;
+}
+.what-we-do-section-images li:not(:first-child){
+  margin-left: 30px;
+}
 .first-text-section-studio-title {
   color: var(--tittle-text--color);
   font-size: 14px;
@@ -41,6 +51,9 @@ body {
 }
 
 /* what we doo section*/
+.our-team-section-members{
+  display: flex;
+}
 
 .first-section-title {
   color: var(--tittle-text--color);
