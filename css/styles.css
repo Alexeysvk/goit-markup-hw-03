@@ -23,7 +23,7 @@
 }
 .header-links{
   display: flex;
- margin-left: auto;
+  margin-left: auto;
 }
 .header-links .nav-item + .nav-item{
   margin-left: 50px;
@@ -31,21 +31,17 @@
 .header-nav-s-list{
   display: flex;
   align-items: center;
-}
-.header-nav-s-list{
   border-bottom: 1px solid var(--border-conteiners);
 }
 
 
 /*webstudio*/
 /* wecstudio-section-main*/
-.main-section-head .container{
-  padding: 212px 301px 142px 294px;
-  margin-top: 0px;
-}
 .main-section-head {
-  margin-top: 0px;
   background: var(--footer-main-sections-bacground);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 .main-section-tittle-text {
   color: var(--main-tittle-text-color);
@@ -96,7 +92,7 @@
   display: flex;
   justify-content: center;
 }
-.what-we-do-section-images li:not(:first-child){
+.what-we-do-section-images .what-we-do-section-list:not(:first-child){
   margin-left: 30px;
 }
 .first-text-section-studio-title {
@@ -113,7 +109,7 @@
   letter-spacing: 0.03em;
 }
 
-/* what we doo section*/
+/* our team section*/
 .tittle-second-section{
   justify-content: center;
   padding-bottom: 50px;
@@ -136,7 +132,6 @@
 }
 .members {
  border: 1px solid var(--border-conteiners);
- box-sizing: border-box;
  background: var(--main-tittle-text-color);
 }
 /* our team section*/
@@ -239,12 +234,10 @@
 
 /* footer section*/
 .footer-content{
-  box-sizing: border-box;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .footer-links{
-  box-sizing: border-box;
   margin-top: 20px;
 }
 .footer-links li:not(:last-child){
